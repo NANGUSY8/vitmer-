@@ -1,0 +1,411 @@
+/* 网页 */
+body{
+    box-sizing: border-box;
+    font-family: "PingFang SC","Lantinghei SC","Microsoft YaHei","HanHei SC","Helvetica Neue","Open Sans",Arial,"Hiragino Sans GB","微软雅黑",STHeiti,"WenQuanYi Micro Hei",SimSun,sans-serif ;
+    background-color:#FFFFFF ;
+    letter-spacing: 1px;
+    width: 1500px;
+    height: 1220px;
+    margin:0 auto;
+    box-shadow: 0 0 15px;
+}
+
+/* 去除超链接下划线 */
+a{
+    text-decoration: none;
+}
+
+/* 顶栏的外部容器 */
+.top-bar-wrapper{
+    width: 1500px;
+    height: 40px;
+    margin: 0px auto;
+    line-height: 40px;
+    color: white;
+    font-size:20px;
+    background-color:#3D3D3D;
+}
+
+/* 顶栏的内部容器 */
+.top-bar{
+    display: flex;
+    height: 40px;
+    width: 1300px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+/* 左边 */
+.top-bar-left{
+    display：flex；
+}
+
+.top-bar-left li{
+    float: left;
+}
+
+
+/* 设置电话图片位置 */
+.phone{
+    margin:7px 5px;  
+}
+
+/* 设置e-mail的外边距 */
+.e-mail{
+    margin:10px 10px 5px 40px;
+}
+
+/* 顶栏右边 */
+.top-bar-right{
+    display: flex;
+}
+
+.top-bar-right img{
+    margin: 5px 5px;
+}
+.top-bar-right a{
+    color: white;
+    margin: 0px 10px 0px 10px;
+}
+.top-bar-right a:hover{
+    color:#1BA19D;
+}
+
+/* 导航条部分 */
+/* 导航条容器 */
+.header-wrapper{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+
+/* 导航条内部 */
+.header{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* 左边部分 */
+.header-left li{
+    float:left;  
+} 
+
+/* 设置logo */
+.header-left img{
+    height: 100px;
+    margin: 25px 20px 20px -30px ;
+}
+
+/* 设置标题 */
+.header-left h1{
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 30px 0px 0px 0px;
+}
+
+/* 设置副标题 */
+.header-left span{
+    display: inline-block;
+    font-size: 20px;
+    /* 字体加粗 */
+    font-weight: bold;
+    margin: 95px 0px 0px -150px;
+}
+
+/* 右边部分 */
+.header-menu-list{
+    display: flex;    
+}
+
+/* 设置每个li的位置 */
+.header-menu-list li{
+    line-height: 150px;
+    margin: 0 10px;
+}
+
+/* 设置li中的超链接 */
+.header-menu-list a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* 设置菜单第一个的颜色 */
+.change-color>a{
+    color:#1BA19D;
+}
+
+/* 设置鼠标移入的状态 */
+.header-menu-list a:hover{
+    color:#1BA19D;
+}
+
+/* 设置搜索部分 */
+/* 设置背景部分 */
+.search-wrapper{
+    width: 1500px;
+    height: 384px;
+    margin: 0 auto;
+    background-color:black;
+    background-image: url(./vitmer-img/_study.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+/* 设置在搜索部分中主体内容的位置 */
+.search-content{
+    position: relative;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 设置搜索栏部分 */
+.search{
+    display: flex;
+    justify-content: center;
+    width: 620px;
+    height: 50px;
+    line-height: 50px; 
+    margin: 10px auto;
+    box-shadow: 0 0 1px;
+}
+
+/* 设置搜索框部分 */
+.search-img{
+    box-sizing: border-box;
+    width: 120px;
+    border: 1px ;
+    color: white;
+    font-size: 13px;
+    background-color: #1BA19D;
+}
+
+/* 设置输入框部分 */
+.input{ 
+    width: 500px;
+    margin-left:;
+}
+
+.text{
+    position: absolute;
+    font-size: 13px;
+    color: #B1B1B1;
+}
+
+/* 设置搜索图片部分 */
+.search-line{
+    margin:20px -10px -5px 0px;
+}
+
+/* 设置搜索关键词部分 */
+.search-list{
+    display: flex;
+    justify-content: center;
+    color:white;
+}
+
+.search-list a{
+    color: #E1E1E1;
+    font-size: 12px;
+    margin: 2px;
+}
+
+/* 设置竖杆的大小 */
+.search-list span{
+    font-size: 10px;
+}
+
+/* 设置主体内容部分 */
+/* 设置标题 */
+.title{
+    color:#1BA19D;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+/* 设置主体内容的外部容器 */
+.body-content{
+    width: 1300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* 设置侧栏的容器 */
+.sidebar{
+    width: 200px;
+    height: 140px;
+    border: 1px solid #C6C6C6;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 设置侧栏的li */
+.sidebar>li{
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 3px;
+    text-align: center;
+    border: 1px solid #C6C6C6;
+    background-color: #3D3D3D;
+    box-shadow: 0 0 1px;
+}
+
+/* 设置侧栏的a */
+.sidebar a{
+    color: white;
+    font-weight: bold;
+    font-size: 14px ;
+}
+
+/* 设置侧栏第一个菜单 */
+#first-list{
+    background-color: white;
+}
+
+#first-list>a{
+    color: black;
+}
+
+/* 设置外部容器 */
+.content-list{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #C6C6C6;
+}
+
+/* 设置每个容器 */
+.content-list>div{
+    position: relative;
+    width: 547px;
+    margin: 20px;
+}
+
+/* 设置图片 */
+.content-list img{
+   width: 180px;
+   height: 120px;
+   float: left;
+}
+
+/* 设置段落 */
+.content-list p{
+    width: 300px;
+    margin-left: 200px;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+/* 设置a的位置，颜色和字体大小 */
+.content-list a{
+    position: absolute;
+    top: 107px;
+    left: 430px;
+    color:#86C5C3;
+    font-size: 13px;
+}
+
+/* 分割线 */
+hr{
+    width: 1300px;
+    height: 1.5px;
+    text-align: center;
+    background-color: #3D3D3D;
+    margin-bottom: -2px;
+}
+
+/* 设置footer */
+.footer{
+    display: flex;
+    width: 1300px;
+    margin:0 auto;
+}
+
+/* 设置footer中的图片 */
+.footer img{
+    float: left;
+    margin: 12px;
+}
+
+/* 设置footer中的每个小标题 */
+.footer h5{
+    font-size: 18px;
+    margin: 8px;
+    font-weight: bolder;
+}
+
+/* 设置footer中每个小标题的介绍 */
+.footer span{
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+/* footer左边 */
+.footer-left{
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* footer左边每个div的宽度和边距 */
+.footer-left>div{
+    width: 325px;
+    margin: 15px 0px;
+}
+
+/* footer右边 */
+.footer-right{
+    width: 650px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3D3D3D;
+    color: white;
+}
+
+/* footer右边每个div的宽度和边距 */
+.footer-right>div{
+    width: 325px;
+    margin: 15px 0px;  
+}
+
+/* 最右边的固定栏 */
+/* 外部容器 */
+.fixed-wrapper{
+    /* 固定位置 */
+    position: fixed;
+    right: 10px;
+    top: 250px;
+    width: 80px;
+    background-color: #6D6C6C;
+}
+
+/* 设置固定栏的每个li */
+.fixed-wrapper>li{
+    width: 80px;
+    text-align: center;
+    border-bottom: white solid;
+}
+
+.fixed-wrapper>li:hover{
+    background-color: #1BA19D;
+}
+/* 每个li里的图片边距 */
+.fixed-wrapper img{
+    margin: 8px 15px;
+}
+
+/* 每个li里的文本 */
+.fixed-wrapper span{
+    font-size: 13px;
+    line-height: 20px;
+    color: white;
+    font-weight: lighter;
+}
